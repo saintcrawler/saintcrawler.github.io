@@ -1,0 +1,94 @@
+/* line 3, ../sass/main.scss */
+body {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+/* line 9, ../sass/main.scss */
+form {
+  max-width: 300px;
+  margin: 0 40px;
+  float: left;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 18, ../sass/main.scss */
+form h1 {
+  border-bottom: 1px solid #aaa;
+  margin: 0 -10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  background: #2083cc;
+  color: #fefefe;
+}
+/* line 30, ../sass/main.scss */
+form fieldset {
+  border: 1px solid #aaa;
+}
+
+/* line 35, ../sass/main.scss */
+.form-group {
+  margin: 10px 5px;
+}
+/* line 38, ../sass/main.scss */
+.form-group span {
+  margin-right: 10px;
+}
+/* line 42, ../sass/main.scss */
+.form-group input {
+  border: 1px solid #888;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+/* line 47, ../sass/main.scss */
+.form-group input:focus {
+  outline: none;
+  box-shadow: 0 0 7px 1px #2083cc;
+}
+/* line 54, ../sass/main.scss */
+.form-group input[type="radio"]:focus {
+  box-shadow: none;
+}
+/* line 60, ../sass/main.scss */
+.form-group .dirty.valid {
+  background: rgba(0, 255, 0, 0.25);
+}
+/* line 65, ../sass/main.scss */
+.form-group .invalid {
+  background: rgba(255, 0, 0, 0.25);
+}
+/* line 69, ../sass/main.scss */
+.form-group .errors {
+  list-style-type: none;
+  background: rgba(255, 0, 0, 0.15);
+  border: 1px solid #ee0000;
+  padding: 5px 10px;
+  text-align: left;
+}
+/* line 77, ../sass/main.scss */
+.form-group .checking {
+  background: #888;
+}
+
+/* line 82, ../sass/main.scss */
+#results {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #aaa;
+  float: left;
+  overflow: scroll;
+}
+
+/* line 91, ../sass/main.scss */
+.hint {
+  font-size: 12px;
+  border: 1px solid #aaf;
+  background: rgba(0, 0, 255, 0.15);
+  padding: 3px;
+  font-family: monospace;
+}

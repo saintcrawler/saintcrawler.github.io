@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+.valid.dirty {
+  border: 1px solid green;
+}
+
+.valid.dirty:after {
+  content: 'ok!';
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 255, 0.5);
+}
+
+.checking {
+  content: 'checking...';
+  background: red;
+}
